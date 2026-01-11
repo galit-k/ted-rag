@@ -24,7 +24,7 @@ CHUNK_OVERLAP = 200            # Overlap to keep context
 BATCH_SIZE = 100               # How many vectors to upload at once
 
 # !!! BUDGET SAFETY: Set to 20 for testing. Set to None for full run. !!!
-LIMIT = 20  
+LIMIT = None  
 # ---------------------
 
 def ingest_data():
